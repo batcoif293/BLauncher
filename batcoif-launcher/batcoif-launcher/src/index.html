@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'">
+<title>Batcoif Launcher</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><span class="mark"></span><span>Batcoif</span></div>
+    <nav>
+      <button class="nav active" data-view="all">Library</button>
+      <button class="nav" data-view="recent">Recently played</button>
+    </nav>
+    <div class="spacer"></div>
+    <button class="nav subtle" id="openFolder">Open shortcuts folder</button>
+  </aside>
+
+  <main class="main">
+    <header class="top">
+      <h1 id="title">Library</h1>
+      <input id="search" type="search" placeholder="Search games" autocomplete="off">
+      <button id="add" class="primary">Add game</button>
+    </header>
+    <section id="grid" class="grid"></section>
+    <section id="detail" class="detail hidden"></section>
+    <section id="empty" class="empty hidden">
+      <div class="empty-art"></div>
+      <h2>Your library is empty</h2>
+      <p>Add a game's launch .exe and it will show up here, ready to play.</p>
+      <button id="add2" class="primary">Add your first game</button>
+    </section>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="renderer.js"></script>
+</body>
+</html>
