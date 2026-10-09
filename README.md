@@ -5,7 +5,7 @@ Why use BLauncher?
 - it tracks playtime for anygame
 - it will soon have an accessible store
 - loads 3x faster than steam
-- increadibly lite
+- incredibly lite
 
 current version: V0.4
 In development: V0.5SW
