@@ -1,4 +1,4 @@
-**open source game launcher **
+**open source game launcher**
 _By Batcoif_
 
 current version: V0.4
