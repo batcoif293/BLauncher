@@ -7,9 +7,9 @@ Why use BLauncher?
 - loads 3x faster than steam
 - incredibly lite
 
-current version: V0.4
-In development: V0.5SW
-Planned release: 9/10/2026
+current version: V0.5.2
+In development: V0.5.3
+Planned release: 11/11/2026
 
 **Installation instructions**
 1 - choose your desired version
